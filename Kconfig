@@ -1,0 +1,9 @@
+menu "PMW3901 Sensor"
+
+config PMW3901
+    bool "Enable the PMW3901 sensor"
+    default y
+    help
+        Enable the PMW3901 sensor driver.
+
+endmenu

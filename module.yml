@@ -1,0 +1,4 @@
+name: pmw3901
+type: module
+zephyr_targets:
+  - ncs
