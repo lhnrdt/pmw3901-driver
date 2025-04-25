@@ -2,3 +2,10 @@ name: pmw3901
 type: module
 zephyr_targets:
   - ncs
+
+build:
+  cmake: .
+  kconfig: Kconfig
+
+  sysbuild-cmake: .
+  sysbuild-kconfig: Kconfig
